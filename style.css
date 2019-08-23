@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    
 
 }
 
@@ -31,7 +31,7 @@ justify-content: flex-start;
     justify-content: flex-start;
     
 }
-a{
+.explorar{
     margin-right: 25px;
     text-decoration-line:none;
     font-family: Roboto;
@@ -39,17 +39,46 @@ a{
     color: white;
     font-size: 13px;
 }
+.explorar:hover{
+    font-size: 16px;  
+
+}
+.cate{
+    margin-right: 25px;
+    text-decoration-line:none;
+    font-family: Roboto;
+    font-style: normal;
+    color: white;
+    font-size: 13px;
+}
+.cate:hover{
+    font-size: 16px;  
+
+}
 .Global{
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 25px;
 }
 .botones{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-right: 10px;
     
     
 }
 .IniciarSesion{
+    margin-right: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 13px;
+    background:#BF1B3C;
+    color: white;
+    border-style: none;
+
+}
+.Registrarse{
     
     font-family: Roboto;
     font-style: normal;
@@ -59,3 +88,24 @@ a{
     border-style: none;
 
 }
+.section1{
+    background-color: #353535;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Fondo{
+   
+    
+
+}
+.Fondo1{
+
+    width: 115%;
+}
+.section2{
+    height: 100000px;
+  
+    background-color: #353535;
+}
+

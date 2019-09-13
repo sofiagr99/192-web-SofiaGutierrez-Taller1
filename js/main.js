@@ -62,8 +62,6 @@ function paginaCargada() {
 
  
 
-f
-
   function recorrerSeries(serie, index) {
     if (index == 0) {
       mostrarContenido();

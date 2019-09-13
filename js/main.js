@@ -56,49 +56,13 @@ function paginaCargada() {
     }
   ];
 
-  var contentSeries = [{
-      name: "Fate/EXTRA: Last Encore",
-      description: "..,",
-      id: 0,
-      imgUrl: "/img/series/fate.png"
-    },
-    {
-      name: "Anime 2",
-      description: "..,",
-      id: 1,
-      imgUrl: "/img/series/fate.png"
-    },
-    {
-      name: "Anime 3",
-      description: "..,",
-      id: 2,
-      imgUrl: "/img/series/fate.png"
-    }
-  ];
+  
 
   //menu
 
-  var arraySeries = document.querySelectorAll('.top-works__serie');
-  var contenidoSeries = document.querySelectorAll('.top-works__informacionSerie');
-  var canvasSeries = document.querySelectorAll('.top-works__song');
-  var arrayPlay= document.querySelectorAll('.top-works__play');
-  var arrayStop= document.querySelectorAll('.top-works__stop');
-  var mySong;
+ 
 
-
-function onClickListeners(index){
-  if(mySong != null){
-    var btnPlay = arrayPlay[index];
-    btnPlay.addEventListener('click', mySong.changePlay);
-
-    
-   
-
-  
-    var btnStop = arrayStop[index];
-    btnStop.addEventListener('click', mySong.stop);
-  }
-}
+f
 
   function recorrerSeries(serie, index) {
     if (index == 0) {

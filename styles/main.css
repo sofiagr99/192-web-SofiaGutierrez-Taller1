@@ -39,7 +39,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 500%;
+  width: 100%;
 }
 
 .inicio__logo {
@@ -746,7 +746,7 @@
 }
 
 .events__img {
-  width: 50%;
+  width: 100%;
 }
 
 .events .swiper-pagination {
@@ -1255,10 +1255,10 @@
     width: 100%;
   }
   .app .landing_img {
-    width: 200px;
+    width: 100%;
   }
   .app .landing_img__2 {
-    width: 80px;
+    width: 100%;
   }
   .app .landing__img__1 {
     width: 50%;

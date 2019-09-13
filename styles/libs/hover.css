@@ -1,14 +1,4 @@
-/*!
- * Hover.css (http://ianlunn.github.io/Hover/)
- * Version: 2.3.2
- * Author: Ian Lunn @IanLunn
- * Author URL: http://ianlunn.co.uk/
- * Github: https://github.com/IanLunn/Hover
 
- * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
- */
-/* 2D TRANSITIONS */
-/* Grow */
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -25,7 +15,7 @@
   transform: scale(1.1);
 }
 
-/* Shrink */
+
 .hvr-shrink {
   display: inline-block;
   vertical-align: middle;
@@ -792,7 +782,6 @@
   animation-iteration-count: 1;
 }
 
-/* Wobble Top */
 @-webkit-keyframes hvr-wobble-top {
   16.65% {
     -webkit-transform: skew(-12deg);
@@ -4149,4 +4138,4 @@
   height: 25px;
 }
 
-/*# sourceMappingURL=hover.css.map */
+el
